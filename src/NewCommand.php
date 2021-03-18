@@ -266,7 +266,7 @@ class NewCommand extends Command
 
         $commands = [
             "gh repo create $name -y $flags",
-            "GIT_TERMINAL_PROMPT=0 git -c credential.helper= -c credential.helper='!gh auth git-credential' push -q -u origin main",
+            'git push -q -u origin main',
         ];
 
         $this->runCommands($commands, $input, $output);
@@ -369,7 +369,7 @@ class NewCommand extends Command
      * @param  string  $search
      * @param  string  $replace
      * @param  string  $file
-     * @return string
+     * @return void
      */
     protected function replaceInFile(string $search, string $replace, string $file)
     {
