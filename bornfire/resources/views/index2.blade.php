@@ -295,7 +295,7 @@
         <div class="text-top">Get ready !</div>
         <h2>Bon Fire</h2>
         <div class="text-bottom">Truest experience<a href="program.html"> of hiking</a></div>
-        <a href="program.html" class="btn">REGISTER</a>
+        <a href="ivbadge.blade.php" class="btn">REGISTER</a>
 
     </div>
     <section class="s-counter" style="background-image: url({{asset('assets/img/bg-2.jpg')}});">

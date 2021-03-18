@@ -20,3 +20,6 @@ Route::get('/new', function () {
     return view('index2');
 });
 
+Route::get('/iv', function () {
+    return view('ivbadge');
+});
